@@ -6,3 +6,5 @@ test('Renders h1 text', () => {
   const textContent = screen.getByText("Blogging App");
   expect(textContent).toBeInTheDocument();
 });
+
+// test
