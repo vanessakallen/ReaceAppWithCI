@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Blogging App</h1>
-        <h2>Type something up, then make a post!</h2>
+        <h2>Type something up, then make a post!</h2> 
         <form onSubmit={handleSubmit}>
           <input placeholder="Enter post title" value={title} onChange={e => setTitle(e.target.value)} />
           <textarea placeholder="Enter post content" value={content} onChange={e => setContent(e.target.value)} />
