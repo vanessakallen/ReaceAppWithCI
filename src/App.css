@@ -1,38 +1,73 @@
 .App {
   text-align: center;
+  margin-top: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 3rem;
+  margin-bottom: -1rem;
+  color: rgb(66, 66, 66);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #00769e;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.input-field {
+  width: 20rem;
+  color: rgb(66, 66, 66);
+  font-size: 1.25rem;
+  border: 2px solid #00769e;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.textarea-field {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  width: 20rem;
+  color: rgb(66, 66, 66);
+  border: 2px solid #00769e;
+  min-width: 20rem;
+  max-width: 20rem;
+  height: 20rem;
+  max-height: 20rem;
+  border-radius: 5px;
+}
+
+.submit-button {
+  font-size: 1.5rem;
+  background-color: #00769e;
+  width: 20rem;
   color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.submit-button:hover {
+  background-color: #0093c4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Post {
+  width: 20rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 30px;
+  border: 2px solid #0093c4;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: rgb(66, 66, 66);
+}
+
+p {
+  font-size: 1.25rem;
+  color: rgb(66, 66, 66);
 }
